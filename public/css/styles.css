@@ -733,7 +733,7 @@ video {
 }
 
 .bg-hero-pattern-desktop{
-  background-image: url(/images/bg-pattern-intro-desktop.svg?bf6b3e1b727eabeffdc535d0d6a5f268),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86));
+  background-image: url('/public/images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86));
 }
 
 .bg-none{
@@ -745,7 +745,7 @@ video {
 }
 
 .bg-pattern-circles{
-  background-image: url(/images/bg-pattern-circles.svg?bae804b8cc1519f26c944365280d192b);
+  background-image: url('/public/images/bg-pattern-circles.svg');
 }
 
 .from-v-dark-gray-blue{
@@ -1281,11 +1281,11 @@ button{
   }
 
   .xl\:bg-illustration-editor-desktop{
-    background-image: url(/images/illustration-editor-desktop.svg?c6c8050aa4dcf0c64b4406570c970d2b);
+    background-image: url('/public/images/illustration-editor-desktop.svg');
   }
 
   .xl\:bg-illustration-laptop-desktop{
-    background-image: url(/images/illustration-laptop-desktop.svg?799209c2628b1f244e1512cc686f0162);
+    background-image: url('/public/images/illustration-laptop-desktop.svg');
   }
 
   .xl\:bg-auto{

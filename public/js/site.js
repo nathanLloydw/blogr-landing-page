@@ -17444,7 +17444,8 @@ __webpack_require__.r(__webpack_exports__);
   name: "mobile_navigation",
   data: function data() {
     return {
-      showMenu: false
+      showMenu: false,
+      showSubMenu: false
     };
   }
 });
@@ -17505,17 +17506,78 @@ var _hoisted_4 = {
   key: 0,
   "class": "absolute z-10 w-full m-auto"
 };
+var _hoisted_5 = {
+  "class": "w-[76%] m-auto bg-white rounded-md mt-10 pt-4 drop-shadow-2xl text-center"
+};
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-[76%] m-auto bg-white rounded-md mt-10 pt-4 drop-shadow-2xl text-center\"><h5 class=\"w-max m-auto cursor-pointer py-4 text-v-dark-desaturated-blue font-medium\">Product <i class=\"fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red\"></i></h5><h5 class=\"w-max m-auto cursor-pointer py-4 text-v-dark-desaturated-blue font-medium\">Company<i class=\"fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red\"></i></h5><div class=\"cursor-pointer pt-4 pb-8 mx-4 border-2 border-b-gray-200 border-t-white border-x-white\"><h5 class=\"w-max m-auto text-v-dark-desaturated-blue font-medium\">Connect<i class=\"fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red\"></i></h5><div class=\"bg-gray-100 mt-4 py-4 rounded-md\"><ul><li class=\"py-3 text-v-dark-desaturated-blue text-lg font-medium\">Contact</li><li class=\"py-3 text-v-dark-desaturated-blue text-lg font-medium\">Newsletter</li><li class=\"py-3 text-v-dark-desaturated-blue text-lg font-medium\">LinkedIn</li></ul></div></div><div class=\"py-8 flex flex-col\"><button class=\"text-v-dark-desaturated-blue font-medium pb-4\">Login</button><button class=\"text-white bg-gradient-to-r from-[#f87b69] to-light-red font-bold w-max m-auto px-12\">Sign Up</button></div></div>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+  "class": "w-max m-auto cursor-pointer py-4 text-v-dark-desaturated-blue font-medium"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Product "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"
+})], -1
+/* HOISTED */
+);
 
-var _hoisted_6 = [_hoisted_5];
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+  "class": "w-max m-auto cursor-pointer py-4 text-v-dark-desaturated-blue font-medium"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Company"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_8 = {
+  "class": "cursor-pointer pt-4 pb-8 mx-4 border-2 border-b-gray-200 border-t-white border-x-white"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Connect");
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_11 = [_hoisted_9, _hoisted_10];
+var _hoisted_12 = {
+  key: 0,
+  "class": "bg-gray-100 mt-4 py-4 rounded-md"
+};
+
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  "class": "py-3 text-v-dark-desaturated-blue text-lg font-medium"
+}, "Contact"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  "class": "py-3 text-v-dark-desaturated-blue text-lg font-medium"
+}, "Newsletter"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  "class": "py-3 text-v-dark-desaturated-blue text-lg font-medium"
+}, "LinkedIn")], -1
+/* HOISTED */
+);
+
+var _hoisted_14 = [_hoisted_13];
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "py-8 flex flex-col"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "text-v-dark-desaturated-blue font-medium pb-4"
+}, "Login"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "text-white bg-gradient-to-r from-[#f87b69] to-light-red font-bold w-max m-auto px-12"
+}, "Sign Up")], -1
+/* HOISTED */
+);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     "class": "fa-solid fa-bars text-white text-3xl my-auto",
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $data.showMenu = !$data.showMenu;
     })
-  })]), $data.showMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, _hoisted_6)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
+  })]), $data.showMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", {
+    "class": "w-max m-auto text-v-dark-desaturated-blue font-medium",
+    onClick: _cache[1] || (_cache[1] = function ($event) {
+      return $data.showSubMenu = !$data.showSubMenu;
+    })
+  }, _hoisted_11), $data.showSubMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, _hoisted_14)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), _hoisted_15])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
 }
 
 /***/ }),

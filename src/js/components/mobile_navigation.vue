@@ -13,8 +13,8 @@
         <h5 class="w-max m-auto cursor-pointer py-4 text-v-dark-desaturated-blue font-medium">Company<i class="fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"></i></h5>
 
         <div class="cursor-pointer pt-4 pb-8 mx-4 border-2 border-b-gray-200 border-t-white border-x-white">
-          <h5 class="w-max m-auto text-v-dark-desaturated-blue font-medium">Connect<i class="fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"></i></h5>
-          <div class="bg-gray-100 mt-4 py-4 rounded-md">
+          <h5 class="w-max m-auto text-v-dark-desaturated-blue font-medium" @click="showSubMenu = ! showSubMenu">Connect<i class="fa-solid fa-angle-down pl-4 text-[16px] text-v-light-red"></i></h5>
+          <div class="bg-gray-100 mt-4 py-4 rounded-md" v-if="showSubMenu">
             <ul>
               <li class="py-3 text-v-dark-desaturated-blue text-lg font-medium">Contact</li>
               <li class="py-3 text-v-dark-desaturated-blue text-lg font-medium">Newsletter</li>
@@ -39,6 +39,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      showSubMenu:false
     };
   },
 }

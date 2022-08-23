@@ -36,10 +36,10 @@ module.exports = {
         },
         backgroundImage:
         {
-            'hero-pattern-desktop': "url('../images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86))",
-            'illustration-editor-desktop':"url('../images/illustration-editor-desktop.svg')",
-            'pattern-circles':"url('../images/bg-pattern-circles.svg')",
-            'illustration-laptop-desktop':"url('../images/illustration-laptop-desktop.svg')",
+            'hero-pattern-desktop': "url('/public/images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86))",
+            'illustration-editor-desktop':"url('/public/images/illustration-editor-desktop.svg')",
+            'pattern-circles':"url('/public/images/bg-pattern-circles.svg')",
+            'illustration-laptop-desktop':"url('/public/images/illustration-laptop-desktop.svg')",
         },
         backgroundPosition:
         {
