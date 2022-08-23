@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+    '*.html',
     './public/**/*.html',
     './src/**/*.js',
     './src/**/*.vue',
@@ -33,13 +34,15 @@ module.exports = {
             '5xl': '3rem',
             '6xl': '4.1rem',
         },
-        backgroundImage: {
-            'hero-pattern-desktop': "url('images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86))",
-            'illustration-editor-desktop':"url('images/illustration-editor-desktop.svg')",
-            'pattern-circles':"url('images/bg-pattern-circles.svg')",
-            'illustration-laptop-desktop':"url('images/illustration-laptop-desktop.svg')",
+        backgroundImage:
+        {
+            'hero-pattern-desktop': "url('../images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86))",
+            'illustration-editor-desktop':"url('../images/illustration-editor-desktop.svg')",
+            'pattern-circles':"url('../images/bg-pattern-circles.svg')",
+            'illustration-laptop-desktop':"url('../images/illustration-laptop-desktop.svg')",
         },
-        backgroundPosition: {
+        backgroundPosition:
+        {
             'pos-hero-desktop': '25% 52%',
             'pos-hero-mobile':'32% 21%',
             'pos-editor-desktop':'800px',
