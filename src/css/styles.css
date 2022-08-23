@@ -19,3 +19,16 @@ a { @apply text-dark-gray py-1; }
 p { @apply font-ubuntu; }
 
 button { @apply rounded-full md:rounded-3xl py-3 px-4 font-bold text-2xl md:text-base; }
+
+.bg-hero-pattern-desktop { background-image: url('/public/images/bg-pattern-intro-desktop.svg'),linear-gradient(to right,rgb(255 139 109), rgb(255 73 86)); }
+.bg-illustration-editor-desktop { background-image: url('/public/images/illustration-editor-desktop.svg'); }
+.bg-pattern-circles { background-image: url('/public/images/bg-pattern-circles.svg'); }
+.bg-illustration-laptop-desktop { background-image: url('/public/images/illustration-laptop-desktop.svg'); }
+
+@media only screen and (max-width: 1200px)
+{
+    .bg-illustration-editor-desktop { background-image: none; }
+    .bg-pattern-circles { background-image: none; }
+    .bg-illustration-laptop-desktop { background-image: none; }
+}
+
