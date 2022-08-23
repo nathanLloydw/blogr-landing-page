@@ -28,7 +28,6 @@ button { @apply rounded-full md:rounded-3xl py-3 px-4 font-bold text-2xl md:text
 @media only screen and (max-width: 1200px)
 {
     .bg-illustration-editor-desktop { background-image: none; }
-    .bg-pattern-circles { background-image: none; }
     .bg-illustration-laptop-desktop { background-image: none; }
 }
 

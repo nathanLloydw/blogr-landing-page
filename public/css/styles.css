@@ -1146,7 +1146,6 @@ button{
 @media only screen and (max-width: 1200px)
 {
     .bg-illustration-editor-desktop { background-image: none; }
-    .bg-pattern-circles { background-image: none; }
     .bg-illustration-laptop-desktop { background-image: none; }
 }
 
